@@ -1,0 +1,19 @@
+# Local environments
+venv/
+.venv/
+env/
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+# Local secrets and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Datasets kept local pending licensing/privacy review
+Data/
+data/
